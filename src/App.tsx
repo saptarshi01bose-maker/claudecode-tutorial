@@ -7,6 +7,7 @@ import {
   Layers, Cpu, GitBranch, Sparkles, Loader2, Compass, LayoutDashboard, Link,
   Mic, Target, LineChart, Search, ListTodo, Activity, ExternalLink
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const apiKey = ""; // Injected by runtime
 
@@ -185,6 +186,7 @@ export default function App() {
           </div>
         )}
       </main>
+      <Analytics />
     </div>
   );
 }

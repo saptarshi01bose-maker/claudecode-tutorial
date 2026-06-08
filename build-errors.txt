@@ -1,0 +1,40 @@
+
+> claudecode-totorial@0.0.0 build
+> tsc -b && vite build
+
+src/App.tsx(3,36): error TS6133: 'ChevronRight' is declared but its value is never read.
+src/App.tsx(4,54): error TS6133: 'ArrowRight' is declared but its value is never read.
+src/App.tsx(11,31): error TS7006: Parameter 'url' implicitly has an 'any' type.
+src/App.tsx(11,36): error TS7006: Parameter 'options' implicitly has an 'any' type.
+src/App.tsx(25,35): error TS7006: Parameter 'prompt' implicitly has an 'any' type.
+src/App.tsx(161,30): error TS2304: Cannot find name 'setView'.
+src/App.tsx(193,21): error TS7031: Binding element 'setView' implicitly has an 'any' type.
+src/App.tsx(193,30): error TS7031: Binding element 'setActiveModule' implicitly has an 'any' type.
+src/App.tsx(206,24): error TS2339: Property 'onerror' does not exist on type 'EventTarget'.
+src/App.tsx(208,24): error TS2339: Property 'src' does not exist on type 'EventTarget'.
+src/App.tsx(265,12): error TS2741: Property 'isLast' is missing in type '{ icon: Element; title: string; desc: string; delay: string; }' but required in type '{ icon: any; title: any; desc: any; delay: any; isLast: any; }'.
+src/App.tsx(266,12): error TS2741: Property 'isLast' is missing in type '{ icon: Element; title: string; desc: string; delay: string; }' but required in type '{ icon: any; title: any; desc: any; delay: any; isLast: any; }'.
+src/App.tsx(267,12): error TS2741: Property 'isLast' is missing in type '{ icon: Element; title: string; desc: string; delay: string; }' but required in type '{ icon: any; title: any; desc: any; delay: any; isLast: any; }'.
+src/App.tsx(268,12): error TS2741: Property 'isLast' is missing in type '{ icon: Element; title: string; desc: string; delay: string; }' but required in type '{ icon: any; title: any; desc: any; delay: any; isLast: any; }'.
+src/App.tsx(326,25): error TS7031: Binding element 'icon' implicitly has an 'any' type.
+src/App.tsx(326,31): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/App.tsx(326,38): error TS7031: Binding element 'desc' implicitly has an 'any' type.
+src/App.tsx(326,44): error TS7031: Binding element 'delay' implicitly has an 'any' type.
+src/App.tsx(326,51): error TS7031: Binding element 'isLast' implicitly has an 'any' type.
+src/App.tsx(341,24): error TS7031: Binding element 'icon' implicitly has an 'any' type.
+src/App.tsx(341,30): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/App.tsx(341,37): error TS7031: Binding element 'desc' implicitly has an 'any' type.
+src/App.tsx(341,43): error TS7031: Binding element 'onClick' implicitly has an 'any' type.
+src/App.tsx(359,21): error TS7031: Binding element 'setView' implicitly has an 'any' type.
+src/App.tsx(390,25): error TS7006: Parameter 'points' implicitly has an 'any' type.
+src/App.tsx(899,23): error TS7031: Binding element 'number' implicitly has an 'any' type.
+src/App.tsx(899,31): error TS7031: Binding element 'title' implicitly has an 'any' type.
+src/App.tsx(899,38): error TS7031: Binding element 'author' implicitly has an 'any' type.
+src/App.tsx(899,46): error TS7031: Binding element 'desc' implicitly has an 'any' type.
+src/App.tsx(899,52): error TS7031: Binding element 'url' implicitly has an 'any' type.
+src/App.tsx(923,25): error TS7031: Binding element 'activeModule' implicitly has an 'any' type.
+src/App.tsx(923,39): error TS7031: Binding element 'setActiveModule' implicitly has an 'any' type.
+src/App.tsx(939,18): error TS2345: Argument of type '"Failed to generate summary. Please try again."' is not assignable to parameter of type 'SetStateAction<null>'.
+src/App.tsx(1044,18): error TS7031: Binding element 'text' implicitly has an 'any' type.
+src/App.tsx(1052,22): error TS7031: Binding element 'code' implicitly has an 'any' type.
+src/App.tsx(1072,27): error TS7031: Binding element 'children' implicitly has an 'any' type.

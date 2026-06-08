@@ -1,0 +1,7 @@
+Purpose and Overview
+        ↓
+Use this to understand and explain the technology stack, architecture, and why the workflow exists.
+
+Deployment Detailed Steps
+        ↓
+Use this as the practical checklist when doing the actual deployment.

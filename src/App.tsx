@@ -201,7 +201,7 @@ function HomeView({ setView, setActiveModule }) {
         <div className="w-full max-w-6xl rounded-[1.5rem] overflow-hidden shadow-2xl bg-[#1A1A18] relative min-h-[350px] md:min-h-[550px] border border-[var(--border)]">
           {/* Using object-cover to ensure the image gracefully fills the space without squishing or breaking */}
           <img 
-            src="Gemini_Generated_Image_9rnv089rnv089rnv.png" 
+            src="/ClaudeCodeTutorial.png" 
             alt="AI Hyper-realistic Agentic Workspace" 
             className="absolute inset-0 w-full h-full object-cover block"
             onError={(e) => {
